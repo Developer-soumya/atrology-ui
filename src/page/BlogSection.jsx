@@ -229,33 +229,6 @@ export default function BlogSection() {
 
         {/* Bottom Blog Carousel */}
         <div className="relative pt-4">
-          {/* Left Arrow */}
-          <button
-            onClick={scrollLeft}
-            className="
-              absolute
-              left-0
-              top-1/2
-              -translate-y-1/2
-              -translate-x-4
-              z-10
-              w-10
-              h-10
-              rounded-full
-              border
-              border-slate-700
-              bg-[#0b0c1c]/95
-              text-white
-              hover:bg-pink-500
-              hover:border-pink-500
-              hover:scale-110
-              transition-all
-              duration-300
-            "
-          >
-            ‹
-          </button>
-
           {/* Carousel */}
           <div
             ref={carouselRef}
